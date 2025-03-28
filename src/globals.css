@@ -46,6 +46,13 @@
         }
     }
 
+    @media screen and (max-width:1165px ){
+    
+        .flex-change{
+            flex-direction: column;
+        }
+    }
+
     @media screen and (max-width:580px ){
     
         .text-small{
