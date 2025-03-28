@@ -28,7 +28,7 @@ function Header({setBgcolor, navigate}) {
 
   return (
     <div className={`w-[90%] fixed left-[50%] translate-x-[-50%] border flex justify-evenly bg-black p-[1rem] `}>
-      <h1 className={`block mr-[10rem] text-white`}>Header</h1>
+      <h1 className={`block mr-[10rem] text-white`}>Mayur Lilhare</h1>
       <div className={` hidden lg:flex gap-4`}>
        { btnArray.map((btn)=>(
           <button 
