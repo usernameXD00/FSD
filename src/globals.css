@@ -1,13 +1,6 @@
-/* globals.css or index.css */
-
-/* .remove-shadow {
-    @apply shadow-none;
-  } */
-
-
-  .highlight-shadow-active {
-    @apply shadow-[0_0_20px_rgba(255,255,0,0.7)];
-  }
+    .highlight-shadow-active {
+        @apply shadow-[0_0_20px_rgba(255,255,0,0.7)];
+    }
   
     .shadow-transition-1000 {
         @apply transition-shadow duration-1000 
@@ -17,11 +10,11 @@
         color: yellow;
         text-align: center;
     }
+
     p{
         color: white;
         font-size: x-large;
         text-align: center;
-
     }
 
     section{
@@ -40,21 +33,18 @@
     }
 
     @media screen and (max-width:850px ){
-    
         .flex-change{
             flex-direction: column;
         }
     }
 
     @media screen and (max-width:1165px ){
-    
         .flex-change{
             flex-direction: column;
         }
     }
 
     @media screen and (max-width:580px ){
-    
         .text-small{
             font-size: 2rem;
         }

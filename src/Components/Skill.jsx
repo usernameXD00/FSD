@@ -27,9 +27,9 @@ function Skill() {
                       className={`flex flex-col justify-evenly xl:flex-row gap-[2rem] px-[3rem] lg:px-[5rem] py-[2rem] bg-black shadow-[0_0_10px_white] mx-[4rem]`}
                     >
                       {/* My skills */}
-                      <div className=" flex flex-col gap-[2rem] items-center xl:px-[5rem] py-[2rem] xl:w-[50%] ">
-                        <h1 className="xl:self-start " >My Skills</h1>
-                        <p className="xl:!text-left">
+                      <div className=" flex flex-col flex-1 max-h-[312px] gap-[2rem] items-center xl:px-[5rem] py-[2rem]  ">
+                        <h1 className=" !text-[2rem] xl:self-start">My Skills</h1>
+                        <p className="!text-left xl:!text-left overflow-y-scroll" style={{ scrollbarWidth: "none" }}>
                           As a Full Stack Developer, working extensively with modern web
                           technologies like React for dynamic front-end development and
                           Node.js for robust back-end services, integrating databases
