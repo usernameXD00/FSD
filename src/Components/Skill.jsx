@@ -24,7 +24,7 @@ function Skill() {
         <div className="flex flex-col p-[2rem]">
                     {/* skill desc */}
                     <div
-                      className={`flex flex-col justify-evenly xl:flex-row gap-[2rem] px-[3rem] lg:px-[5rem] py-[2rem] bg-black shadow-[0_0_10px_white] mx-[4rem]`}
+                      className={`flex flex-col justify-evenly xl:flex-row gap-[2rem] px-[3rem] lg:px-[5rem] py-[2rem] bg-black shadow-[0_0_10px_white] xl:mx-[4rem]`}
                     >
                       {/* My skills */}
                       <div className=" flex flex-col flex-1 max-h-[312px] gap-[2rem] items-center xl:px-[5rem] py-[2rem]  ">
@@ -59,7 +59,7 @@ function Skill() {
                       </div>
                     </div>
                     
-                      <div className="flex flex-change lg:flex-row p-[4rem] gap-[2rem] ">
+                      <div className="flex flex-change lg:flex-row pt-[2rem] xl:p-[4rem] gap-[2rem] ">
                        {
                         SkillsDesc.map(ele=>(
                           <div key={ele.name} className="flex flex-col flex-1 max-h-[30rem] bg-black p-[2rem] gap-3 shadow-[0_0_10px_white]">
