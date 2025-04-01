@@ -20,13 +20,13 @@ function About({navigate, highlightSection}) {
           </div>
 
           <div
-            className={`flex flex-col lg:w-[40rem] gap-[2rem] p-[1rem] text-center shadow-transition-1000 ${
+            className={`flex flex-col lg:w-[40rem] gap-[2rem] xl:p-[1rem] text-center shadow-transition-1000 ${
               highlightSection === "About"
                 ? "highlight-shadow-active"
                 : "shadow-none"
             } `}
           >
-            <h1 className="text-yellow-300">I'm a Frontend Developer</h1>
+            <h1 className="!text-[2rem] lg:!text-[3rem] text-yellow-300">I'm a Frontend Developer</h1>
             <p className="text-white text-2xl">
               Hello! I'm a front end web developer based in pune. I'm very
               passionate about the work that i do.
