@@ -55,7 +55,7 @@ function Projects() {
       name:'National Blockchain Framework ',
       projectDesc:'The National Blockchain Framework Security Assessment Portal is a comprehensive security evaluation platform designed to assess the security posture of blockchain-based systems. Built using the MERN stack, this portal enables real-time data fetching and automates report generation based on security assessment forms. It is tailored for government agencies, enterprises, and blockchain developers to evaluate, monitor, and enhance the security of their blockchain implementations.',
       features:['Security Assessment Forms', 'Real-Time Data Fetching', 'Automated Report Generation', ' User Authentication & Role Management', 'Interactive Dashboard', 'Responsive UI'],
-      techStack: ['Frontend: React.js', 'Styling: Tailwind CSS', 'State Management: useState & Context API', 'Routing: React Route', 'Backend: Node.js + Express.js ', 'Backend: Node.js + Express.js ', 'Authentication & Security: JWT, bcrypt', ],
+      techStack: ['Frontend: React.js', 'Styling: Tailwind CSS', 'State Management: useState & Context API', 'Routing: React Route', 'Backend: Node.js + Express.js ', 'Authentication & Security: JWT, bcrypt', ],
       myArr: imgArray3,
     },
 
