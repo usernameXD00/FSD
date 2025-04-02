@@ -73,7 +73,7 @@ function Projects() {
             <div className="flex flex-row gap-2 justify-evenly">
               <h1 className="!text-[2rem] lg:!text-[3rem] text-yellow-300">Latest Projects</h1>
               <button className={`hover:!bg-yellow-200 hover:!text-black !text-yellow-200 !bg-black  !border-yellow-200`}
-              onClick={()=>window.open('https://github.com/mayurlilhare?tab=repositories','_blank')}>All Work</button>
+              onClick={()=>window.open('https://github.com/mayurlilhare','_blank')}>All Work</button>
             </div>
             
             <div className={`h-[450px] lg:h-[300px] flex flex-row w-[100%] self-center `}>
