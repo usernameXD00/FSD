@@ -17,7 +17,7 @@ function Contact() {
               <FontAwesomeIcon icon={faBriefcase} color="yellow" className="self-start" style={{ height: "3rem" }}/>
               <h1 className="!text-left text-2xl text-small sm:text-[2rem]">Currently I am...</h1>
               <ul className="!text-left">
-                <li>Project Engineer at CDAC, Pune</li>
+                <li>Project Engineer at CDAC</li>
                 <li>Experience: 2 years+</li>
                 <li>Based in Pune, Maharashtra</li>
               </ul>
