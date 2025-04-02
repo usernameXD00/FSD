@@ -11,8 +11,6 @@ function App() {
   const [bgcolor, setBgcolor] = useState("#393939");
   const [highlightSection, setHighlightSection] = useState("");
   
-  // const btnArray = ['About', 'Skills', 'Projects', 'Contracts'];
-
   function navigate(btn) {
     document.getElementById(btn)?.scrollIntoView({ behavior: "smooth" });
     setHighlightSection(btn);

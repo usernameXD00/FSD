@@ -76,7 +76,7 @@ function Projects() {
               onClick={()=>window.open('https://github.com/mayurlilhare','_blank')}>All Work</button>
             </div>
             
-            <div className={`h-[450px] lg:h-[300px] flex flex-row w-[100%] self-center `}>
+            <div className={`h-[450px] lg:h-[300px] flex flex-row w-[100%] self-center`}>
             {
               projectArray.map(ele=> (
                 <div key={ele.id} className={`${projectId === ele.id ? 'flex flex-row w-full justify-evenly items-center' : 'hidden'}`}> 

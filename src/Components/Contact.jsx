@@ -23,7 +23,6 @@ function Contact() {
               </ul>
             </div>
           </div>
-          {/* <hr /> */}
           <div className="flex flex-col p-[3rem] xl:m-[3rem] bg-black gap-[2rem]">
                <p>© Mayur. All rights reserved.</p>
                {/* social links */}
