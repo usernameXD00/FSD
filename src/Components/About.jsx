@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.jpg';
 import SoicalLinks from './SoicalLinks';
 import "../globals.css";
 
@@ -7,11 +7,11 @@ function About({navigate, highlightSection}) {
     
     return (
         <div className={`flex flex-col lg:flex-row mt-[6rem] p-[4rem] gap-[2rem] lg:mx-auto justify-evenly `} >  
-          <div className={`flex flex-col items-center`}>
+          <div className={`flex flex-1 flex-col items-center`}>
             <img
               src={profile}
               alt="profile"
-              className={`rounded-[50%] w-[80%] transition-shadow duration-1000 ${
+              className={`rounded-[35%] w-[37%] h-[80%] transition-all duration-1000 ${
                 highlightSection === "About"
                   ? " shadow-[0_0_20px_rgba(255,255,0,0.7)]"
                   : "shadow-none"
@@ -20,13 +20,13 @@ function About({navigate, highlightSection}) {
           </div>
 
           <div
-            className={`flex flex-col lg:w-[40rem] gap-[2rem] xl:p-[1rem] text-center shadow-transition-1000 ${
+            className={`flex flex-1 flex-col lg:w-[40rem] gap-[2rem] xl:p-[1rem] text-center shadow-transition-1000 rounded-2xl ${
               highlightSection === "About"
                 ? "highlight-shadow-active"
                 : "shadow-none"
             } `}
           >
-            <h1 className="!text-[2rem] lg:!text-[3rem] text-yellow-300">I'm a Frontend Developer</h1>
+            <h1 className="!text-[2rem] lg:!text-[3rem] text-yellow-300">I'm a Fullstack Developer</h1>
             <p className="text-white text-2xl">
               Hello! I'm a front end web developer based in pune. I'm very
               passionate about the work that i do.

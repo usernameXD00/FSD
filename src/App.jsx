@@ -1,14 +1,15 @@
-import { useState } from "react";
+import { Fragment, Profiler, useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import "./globals.css";
 import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
+
 function App() {
   const [bgcolor, setBgcolor] = useState("#393939");
   const [highlightSection, setHighlightSection] = useState("");
-
   
   // const btnArray = ['About', 'Skills', 'Projects', 'Contracts'];
 
@@ -38,14 +39,13 @@ function App() {
           <hr />
         </section>
         <section id="Projects">
-          <div className={`h-[900px]`}>{"Contact"}</div>
+          <Projects />
           <hr />
           
         </section>
         <section id="Contact">
           <Contact />
         </section>
-        
       </div>
    
   );
