@@ -48,7 +48,7 @@ export default function ImageSlider({ json }) {
         return <div>Error Occurred!!! {errorMsg}</div>
     }
 
-    return  <div className="container h-[20%] w-[45%] lg:w-[20%] flex-1 transition-all duration-100 active:scale-125 focus:scale-125 hover:scale-125">
+    return  <div className="container h-[90%] w-[45%] lg:w-[20%] flex-1 transition-all duration-100 active:scale-125 focus:scale-125 hover:scale-125">
                 {images && images.length ? images.map((imageItem, index) => {
                     return <img
                         key={index}
