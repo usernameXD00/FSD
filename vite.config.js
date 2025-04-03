@@ -6,5 +6,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/mayur-portfolio"
+  base: "/FSD"
 })
