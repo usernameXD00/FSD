@@ -6,5 +6,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    port: 1234,
+  },
   base: "/FSD"
 })

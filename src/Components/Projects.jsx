@@ -82,7 +82,7 @@ function Projects() {
                 <div key={ele.id} className={`${projectId === ele.id ? 'flex flex-row w-full justify-evenly items-center' : 'hidden'}`}> 
                   <FontAwesomeIcon icon={faArrowLeft} onClick={()=>handlePrevious(projectArray)} className="shadow-[0_0_10px_white] w-[3%] !h-[10%] rounded-4xl text-white"/>
                   <div key={ele} className={`flex flex-col w-[80%] lg:flex-row h-full gap-3 text-white bg-black shadow-[0_0_10px_white] p-[2rem]`}>
-                    <div className="flex flex-1 py-[2rem] px-[3rem] justify-center">
+                    <div className="flex flex-1 py-[2rem] lg:px-[4rem] justify-center">
                       <ImageSlider json={ele.myArr}/>
                     </div>
                     <div className="flex flex-1 flex-col gap-3 justify-evenly items-center overflow-scroll" style={{scrollbarWidth:'none'}}>
