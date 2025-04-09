@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.jpg';
+import profile2 from '../assets/profile2.jpg';
 import SoicalLinks from './SoicalLinks';
 import "../globals.css";
 
@@ -9,7 +9,7 @@ function About({navigate, highlightSection}) {
         <div className={`flex flex-col lg:flex-row mt-[6rem] p-[4rem] gap-[2rem] lg:mx-auto justify-evenly `} >  
           <div className={`flex flex-1 flex-col items-center`}>
             <img
-              src={profile}
+              src={profile2}
               alt="profile"
               className={`rounded-[35%] w-[37%] h-[80%] transition-all duration-1000 ${
                 highlightSection === "About"

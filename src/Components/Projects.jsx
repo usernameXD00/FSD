@@ -85,7 +85,7 @@ function Projects() {
                     <div className="flex flex-1 py-[2rem] lg:px-[4rem] justify-center">
                       <ImageSlider json={ele.myArr}/>
                     </div>
-                    <div className="flex flex-1 flex-col gap-3 justify-evenly items-center overflow-scroll" style={{scrollbarWidth:'none'}}>
+                    <div className="flex flex-1 flex-col gap-3 justify-evenly items-center overflow-scroll overflow-x-hidden" >{/*style={{ scrollbarWidth: "none" }} */}
                       <h2 className={`text-yellow-300 text-2xl !text-left`}>{ele.name}</h2>
                       <p className="flex-1  !text-left" >{ele.projectDesc}</p>
                     

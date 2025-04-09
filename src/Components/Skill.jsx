@@ -29,7 +29,7 @@ function Skill() {
                       {/* My skills */}
                       <div className=" flex flex-col flex-1 max-h-[312px] gap-[2rem] items-center xl:px-[5rem] py-[2rem]  ">
                         <h1 className=" !text-[2rem] xl:self-start">My Skills</h1>
-                        <p className="!text-left xl:!text-left overflow-y-scroll" style={{ scrollbarWidth: "none" }}>
+                         <p className="!text-left xl:!text-left overflow-y-scroll " style={{ scrollbarWidth: "none" }}>
                           As a Full Stack Developer, working extensively with modern web
                           technologies like React for dynamic front-end development and
                           Node.js for robust back-end services, integrating databases
@@ -68,7 +68,7 @@ function Skill() {
                               color={ele.color}
                               style={{ height: "3rem" }}
                             />
-                            <p className="overflow-y-scroll !text-left" style={{ scrollbarWidth: "none" }}>{ele.para}</p> 
+                            <p className="overflow-y-scroll !text-left " style={{ scrollbarWidth: "none" }} >{ele.para}</p> 
                           </div>
                         ))
                        }
